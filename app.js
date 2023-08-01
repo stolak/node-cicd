@@ -3,7 +3,7 @@ const app = express();
 const path = require('path')
 
 app.get('/names', (req, res) => {
-  res.send('Akinbobola Olawole');
+  res.send('Akinbobola Olawole stephen');
 })
 
 app.listen(5000, () => {
